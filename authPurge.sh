@@ -1,10 +1,9 @@
-
 #!/bin/bash
 
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/b‌​in
 
 
-DIR="/usr/lib/unifi-video/videos"
+DIR="/srv/unifi-video/videos"
 
 # Cek directory ada
 if [ ! -d "$DIR" ]; then
@@ -24,8 +23,10 @@ else
   echo "$oldest" 
 fi
 
+echo ""
+echo "delete oldest directory inside"
+echo ""
+
 #prompt penghapusan
 echo "$oldest" | awk '{print $2}' | xargs rm -rv
 echo "deleted...!"
-
-done
