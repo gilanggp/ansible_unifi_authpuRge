@@ -1,5 +1,0 @@
-[nvr]
-kag-nvr-5 ansible_host=10.0.51.5 ansible_user=ubnt ansible_password=peRkasa$%
-kag-nvr-7 ansible_host=10.0.51.8 ansible_user=ubnt ansible_password=peRkasa$%
-kag-nvr-4 ansible_host=10.0.51.4 ansible_user=unifi ansible_password=Kusuma83
-
