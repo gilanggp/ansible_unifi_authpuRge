@@ -3,7 +3,7 @@
   hosts: nvr
   tasks:
      - name: Execute the script
-       command: sh /home/test_user/test.sh
+       command: sh /bin/autPurge.sh
        
      - name: Display the config
        ansible.builtin.debug:
