@@ -4,7 +4,7 @@
   tasks:
     - name: Transfer bash file to host
       ansible.builtin.copy:
-        src: /ansible_unifi_authpuRge/autPurge.sh
+        src: /ansible_unifi_authpuRge/authPurge.sh
         dest: /bin/autPurge.sh
         force: yes
 
