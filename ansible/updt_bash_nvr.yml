@@ -6,7 +6,7 @@
       ansible.builtin.copy:
         src: /home/lily/code/autPurge.sh
         dest: /bin/autPurge.sh
-        force: yes
+        remote_src: yes
 
     - name: Display the config
       ansible.builtin.debug:
