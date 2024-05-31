@@ -4,7 +4,7 @@
   tasks:
     - name: Transfer bash file to host
       ansible.builtin.copy:
-        src: ./autPurge.sh
+        src: autPurge.sh
         dest: /bin/autPurge.sh
         force: yes
 
